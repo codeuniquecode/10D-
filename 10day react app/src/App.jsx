@@ -3,9 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {BrowserRouter,Routes, Route} from 'react-router-dom'
-import Home from './home'
+import Home from './Home'
 import Contact from './contact'
 import Button from './Button'
+import Color from './Color'
+import UseEffect from './UseEffect'
 // import Button from './button'
 function App() {
   let a = 100;
@@ -42,6 +44,8 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<h1>About</h1>} />
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/color' element={<Color/>}/>
+        <Route path='/use' element={<UseEffect/>}/>
       </Routes>
       </BrowserRouter>
     </>

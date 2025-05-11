@@ -1,0 +1,23 @@
+npm create vite@latest
+-to create folder
+
+react-router-dom
+-is used for routing as react doesnt directly support routing
+
+
+the file name of jsx and component name should be capital- Home
+
+
+
+
+cd "10day react app"
+PS D:\web development\React\10 days react\10day react app> npm run dev
+
+-react works on virtual dom
+-it doesnot directly inject code in dom
+- there are basically 2 virtual doms, it compares them and find out their difference
+- the above process is called diffing
+- then the changes are applied in dom, so it is faster than traditional js
+- and the above process is called reconcilation
+- component means a thing that has its own UI and logic - eg- register buttn
+- we use props to make component dynamic - eg- making login btn from above register btn
